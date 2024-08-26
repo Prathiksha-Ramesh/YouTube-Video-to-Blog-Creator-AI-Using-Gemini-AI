@@ -33,28 +33,29 @@ The YouTube Video to Blog Creator AI automates the creation of blog posts from Y
 
 ### Setup
 
-1. Clone the repository:
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/yourusername/youtube-to-blog-ai.git
    cd youtube-to-blog-ai
 ````
 
-2. Create a virtual environment:
+2. **Create a virtual environment:**
 ``` bash
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ```
 
-3. Install the required dependencies:
+3. **Install the required dependencies:**
 ``` bash
 pip install -r requirements.txt
 ``` 
-4. Configure environmental variables: Copy the `.env.example` file to create a `.env` file and adjust the variables accordingly.
+4. **Configure environmental variables:**
+ Copy the `.env.example` file to create a `.env` file and adjust the variables accordingly.
 
 ## Usage
 To start the application:
 
-- Ensure all configurations in .env are set.
+- Ensure all configurations in `.env` are set.
 - Run the main script to initiate the content generation
 ``` bash 
 python main.py
