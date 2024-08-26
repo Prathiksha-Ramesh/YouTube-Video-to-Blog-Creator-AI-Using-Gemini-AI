@@ -38,8 +38,8 @@ The YouTube Video to Blog Creator AI automates the creation of blog posts from Y
    git clone https://github.com/yourusername/youtube-to-blog-ai.git
    cd youtube-to-blog-ai
 ````
-
 2. **Create a virtual environment:**
+
 ``` bash
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
